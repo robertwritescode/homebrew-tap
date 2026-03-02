@@ -3,7 +3,7 @@ cask "git-w" do
   name "git-w"
   desc "Git plugin for managing meta-repo workspaces"
   homepage "https://github.com/robertwritescode/git-w"
-  version "1.1.1"
+  version "1.1.2"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "git-w" do
   on_macos do
     on_intel do
       url "https://github.com/robertwritescode/git-w/releases/download/v#{version}/git-w_darwin_amd64.tar.gz"
-      sha256 "78a0886f38378abb1f39ac8913dbb078e695f91020bbc12124f59d0057ca0f97"
+      sha256 "e04c636a485f471e60fe98d04f08ed231b887d525997c9e2370f816c93b53556"
     end
     on_arm do
       url "https://github.com/robertwritescode/git-w/releases/download/v#{version}/git-w_darwin_arm64.tar.gz"
-      sha256 "7010ba0c49bd3861249f625643b53330977907615b1e9bf955c407f6002039dc"
+      sha256 "ed07f677e58ee44f689f4fb3b6ebb658fd8e04daf9b23fbd89e5149ce1570381"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/robertwritescode/git-w/releases/download/v#{version}/git-w_linux_amd64.tar.gz"
-      sha256 "b503b2a1a3a3a8a4b8dcfc1a8e8cf9876e932656079468df3bcd0b860f23c851"
+      sha256 "bea0908563f8a53aa8a79b859fa29b9e2d9d99bc4e7598d1f28c6e047d918791"
     end
     on_arm do
       url "https://github.com/robertwritescode/git-w/releases/download/v#{version}/git-w_linux_arm64.tar.gz"
-      sha256 "cd9c62c6e7c9380a549bcdfeb5dc29339c15d2eb081498947409c7a3e0c04397"
+      sha256 "b17c41205292b58c1aa3bfdb9d9fd4b2d2f84cf8c058bce9196eb84b7877eee3"
     end
   end
 
